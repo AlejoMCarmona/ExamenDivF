@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Curso Ingreso UTN FRA</title>
+
+    <!--/estilos-->
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="animacion.css" />
+    <!--final de /estilos-->
+
+    <!--Lógica-Programación-->
+    <script type="text/javascript" src="uno.js"></script>
+    <!--Final de Lógica-Programación -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="animated bounceInRight header">
+      <a class="MiBotonUTNnav" onclick="location.href='index.html'"
+        ><i class="far fa-hand-point-left"></i>Men&uacute; ejercicios</a
+      >
+    </div>
+
+    <div class="row">
+      <div class="col-3 col-s-3 menu"></div>
+
+      <div class="col-5 col-s-9">
+        <form id="FormIngreso" class="animated bounceInLeft">
+          <h1>Ejercicio 1</h1>
+
+          <a class="MiBotonUTNnav" onclick="mostrar()"
+            >Mostrar informaci&oacute;n</a
+          >
+        </form>
+      </div>
+
+      <div class="col-4 col-s-12">
+        <div class="aside animated bounceInUp">
+          <h2>Enunciado:</h2>
+          <h3>
+          Se necesita llevar el registro de un vacunatorio. Para ello se podrá registrar los datos de las personas vacunadas mientras el usuario quiera.
+<br>De cada vacunado se solicita:
+<br>-nombre (entre 3 y 10 caracteres)
+            <br>-edad ( mayor o igual a 12)
+            <br>-vacuna (“rusa”, “china”, “americana”)
+	<br>Si la edad esta entre 12 y 17 años ambos incluidos solo se permite la vacuna americana
+            <br>-dosis (“p” en caso de ser la primer dosis o “s” en caso de ser la segunda dosis)
+           <br>-sexo( “f” o “m” )
+
+<br>Informar:<br>
+a-	Promedio de edad de los que se vacunaron con la china<br>
+b-	Nombre y vacuna de la hombre con más joven<br>
+c-	De las personas que recibieron la vacuna americana que porcentaje son menores de edad<br>
+d-	Porcentaje de los que están vacunados con 1 dosis sobre el total de vacunados<br>
+e-	Vacuna mas inoculada<br>
+
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Curso de ingreso UTN FRA</p>
+    </div>
+  </body>
+</html>
